@@ -38,6 +38,7 @@ class queue{
                 cout<<"Queue is Empty \n";
                 return;
             }
+            
             f = ( f + 1 ) % capacity;
             currsize--;
 
