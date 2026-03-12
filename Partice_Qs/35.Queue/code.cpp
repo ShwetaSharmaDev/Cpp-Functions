@@ -38,6 +38,7 @@ class queue{
         if(empty()){
             cout<<"queue is empty \n";
         }
+        
         node * temp = head;
         head = head->next;
         delete temp;
