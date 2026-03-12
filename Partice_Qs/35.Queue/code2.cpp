@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+#include<stack>
+#include<list>
+#include<queue>
+
+
+
+int main() {
+
+    queue<int > q1;
+    q1.push(1);
+    q1.push(2);
+    q1.push(3);
+    q1.push(4);
+
+    while(!q1.empty()){
+        cout<<q1.front()<<" ";
+        q1.pop();
+    }
+    
+    return 0;
+}
